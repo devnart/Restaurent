@@ -1,0 +1,70 @@
+@import "style.css";
+
+.header.menu {
+    position: relative;
+    width: 100%;
+}
+
+
+.tiles {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.tiles .element {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.tiles .element:nth-child(1) {
+    background-image:url(../img/menu/food-03.jpg);
+}
+.tiles .element:nth-child(2) {
+    background-image:url(../img/menu/food-02.jpg);
+}
+.tiles .element:nth-child(3) {
+    background-image:url(../img/menu/food-01.jpg);
+    display: flex;
+    justify-content: flex-end;
+}
+.tiles .element:nth-child(4) {
+    background-image:url(../img/menu/food-04.jpg);
+    display: flex;
+    justify-content: flex-end;
+}
+.tiles .element:nth-child(5) {
+    background-image:url(../img/menu/food-05.jpg);
+}
+.tiles .element:nth-child(6) {
+    background-image:url(../img/menu/food-06.jpg);
+}
+
+
+.tiles .element div {
+    height: 100%;
+    background-color: #ffffffe6;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.tiles .element div .price {
+    font-family: "Recoleta",serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #C39D63;
+}
+.tiles .element div h5 {
+    font-family: "Recoleta", serif;
+    color: #42363A;
+    font-size: 22px;
+}
+.tiles .element div p:last-of-type {
+    font-size: 10px;
+    width: 80%;
+}

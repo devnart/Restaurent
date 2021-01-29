@@ -48,7 +48,7 @@ nav ul li:hover a {
     opacity: 0.8;
 }
 .hero {
-       background:linear-gradient(#392d3b99, #392d3b99),url(img/hero.jpg);
+       background:linear-gradient(#392d3b99, #392d3b99),url(../img/hero.jpg);
     background-size: cover;
     height: 100vh;
 
@@ -135,19 +135,19 @@ section.fresh .fresh-item{
 }
 
 section.fresh .fresh-item:nth-child(1){
-    background-image: url(img/1.jpg);
+    background-image: url(../img/1.jpg);
 }
 section.fresh .fresh-item:nth-child(2){
-    background-image: url(img/2.jpg);
+    background-image: url(../img/2.jpg);
 }
 section.fresh .fresh-item:nth-child(3){
-    background-image: url(img/3.jpg);
+    background-image: url(../img/3.jpg);
 }
 section.fresh .fresh-item:nth-child(4){
-    background-image: url(img/4.jpg);
+    background-image: url(../img/4.jpg);
 }
 section.fresh .fresh-item:nth-child(5){
-    background-image: url(img/5.jpg);
+    background-image: url(../img/5.jpg);
 }
 section.fresh .fresh-item div {
     transition-duration: 500ms;
@@ -180,7 +180,7 @@ section.fresh .fresh-item div p {
     font-size: 11px;
 }
 .visit {
-    background:linear-gradient(#392d3b99, #392d3b99),url(img/visit.jpg);
+    background:linear-gradient(#392d3b99, #392d3b99),url(../img/visit.jpg);
     background-size: cover;
     
 
@@ -234,7 +234,7 @@ section.values .value p {
     margin: 0 auto;
 }
 .showcase {
-    background:linear-gradient(#C39D63BF, #C39D63BF),url(img/visit.jpg);
+    background:linear-gradient(#C39D63BF, #C39D63BF),url(../img/visit.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
